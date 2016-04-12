@@ -6,7 +6,7 @@ import smtplib
 
 #Request alert 80%
 
-def envoi_oneinc():
+def envoi_onereq():
 	fromaddr = 'yourMail@mail.com'
 	toaddrs = ['xxxx@mail.com', 'zzzz@mail.com']
 	sujet = "Alerte GLPI"
