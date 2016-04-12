@@ -4,7 +4,8 @@ import smtplib
 
 #Email sending function from the exchange server mail  with a config. SMTP
 
-#incident alert 80%
+#Incident alert 80%
+
 def envoi_oneinc():
 	fromaddr = 'yourMail@mail.com'
 	toaddrs = ['xxxx@mail.com', 'zzzz@mail.com']
