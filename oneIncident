@@ -2,7 +2,7 @@
 
 import smtplib
 
-#Fonction d'envoie d'email depuis le serveur de messagerie exchange avec une config. SMTP.
+#Email sending function from the exchange server mail  with a config. SMTP
 
 #incident alert 80%
 def envoi_oneinc():
@@ -21,8 +21,8 @@ def envoi_oneinc():
 	"""
 	msg = param % (fromaddr, ", ".join(toaddrs), sujet, message)
 	server = smtplib.SMTP()
-	#server.set_debuglevel(1)		#Décommenter cette ligne afin d'activer la fonction de débug
-	server.connect('SMTP Server Adress', Port)		#Connexion au serveur smtp
+	#server.set_debuglevel(1)		#Uncomment this line to activate debug
+	server.connect('SMTP Server Adress', Port)		#Connect to SMTP Server
 	server.helo()
-	server.sendmail(fromaddr, toaddrs, msg)		#Envoi de l'email
-	server.quit()		#Déconnexion au serveur
+	server.sendmail(fromaddr, toaddrs, msg)		#Send email
+	server.quit()		#Logout server
