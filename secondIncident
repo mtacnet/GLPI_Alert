@@ -4,7 +4,7 @@ import smtplib
 
 # Email sending function from the exchange server mail  with a config. SMTP
 
-#secondIncident alert 80%
+#secondIncident alert 100%
 
 def envoi_secinc():
 	fromaddr = 'yourMail@mail.com'
