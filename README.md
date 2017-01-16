@@ -4,7 +4,9 @@ This is a result of python script that checks the GLPI database and send an emai
 
 Project GLPI: http://glpi-project.org/
 
-On this project, the DBMS use is MySQL.
+This script run with GLPI version 0.83.
+
+On this project, the DBMS use is MySQL. 
 
 On this project, the indentation used is: tabulation and spaces are: 4 
 
